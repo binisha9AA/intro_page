@@ -14,7 +14,7 @@ export default function HeroTitle() {
           create team rituals, and watch productivity soar.
         </p>
       </div>
-      <Button buttonText="Learn More" styles="text-white" />
+      <Button buttonText="Learn More" styles="sm:text-white md:text-white " />
       <Sponsors />
     </div>
   );
