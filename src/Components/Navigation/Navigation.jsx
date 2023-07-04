@@ -39,7 +39,7 @@ export default function Navigation() {
     },
   ];
   return (
-    <nav className=" bg-white md:flex max-h-[64px] justify-evenly gap-7 relative px-9">
+    <nav className=" bg-white md:flex max-h-[64px] justify-between gap-7 relative px-9">
       <div className="flex justify-around items-center">
         <div className="uppercase text-[18px]">
           <img src={logo} />
@@ -78,14 +78,6 @@ export default function Navigation() {
         </a>
         <Button buttonText="register" styles="text-black bg-transparent" />
       </div>
-      {/* <CDropdown>
-        <CDropdownToggle color="secondary">Dropdown button</CDropdownToggle>
-        <CDropdownMenu>
-          <CDropdownItem href="#">Action</CDropdownItem>
-          <CDropdownItem href="#">Another action</CDropdownItem>
-          <CDropdownItem href="#">Something else here</CDropdownItem>
-        </CDropdownMenu>
-      </CDropdown> */}
     </nav>
   );
 }
