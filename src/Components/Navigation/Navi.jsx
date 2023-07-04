@@ -7,6 +7,7 @@ import todo from '../../assets/images/icon-todo.svg';
 import calendar from '../../assets/images/icon-calendar.svg';
 import remainders from '../../assets/images/icon-reminders.svg';
 import planning from '../../assets/images/icon-planning.svg';
+
 function menuHandler(e) {
   let list = document.querySelector('ul');
   if (e.target.name === 'menu') {
@@ -113,7 +114,6 @@ export default function Navi() {
                   </li>
                 </ul>
               ) : null}
-              {/* {company ? <div>Is Open</div> : <div></div>} */}
             </div>{' '}
             <ul>
               <li className="menu-item">

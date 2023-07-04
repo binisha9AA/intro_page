@@ -5,7 +5,7 @@ import HeroTitle from '../../HeroTitle.jsx/HeroTitle';
 export default function Main() {
   return (
     <>
-      <main className="w-full">
+      <main className=" main w-full">
         <div className="flex  flex-col-reverse  md:flex-row md:items-center md:justify-evenly">
           <div>
             <HeroTitle />
